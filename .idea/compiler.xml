@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alfresco-allinone-platform-jar" />
+        <module name="alfresco-allinone-share-jar" />
+        <module name="integration-tests" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alfresco-allinone" target="1.7" />
+      <module name="alfresco-allinone-platform-jar" target="1.7" />
+      <module name="alfresco-allinone-share-jar" target="1.7" />
+      <module name="integration-tests" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
